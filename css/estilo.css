@@ -143,6 +143,13 @@ box-shadow: inset 0px -50px 7px -51px #000;
 	position:absolute;
 	width:100%;
 	bottom:500px;
+	text-align:left;
+	}
+
+.pretitulo{
+	bottom:600px;
+	position:absolute;
+	width:100%;
 	text-align:left;}
 
 /*BLOQUE 1*/
@@ -153,13 +160,13 @@ box-shadow: inset 0px -50px 7px -51px #000;
 	background-position:top center;}
 
 #divuno img{
-	margin-top:25%;}
+	margin-top:20%;}
 
 
 
 /*BLOQUE 2*/
 	
-.wrap2{
+.content2{
 	background-image: url(../img/ciudad.png);
 	background-position:bottom center;
 	background-repeat:no-repeat;
@@ -168,10 +175,11 @@ box-shadow: inset 0px -50px 7px -51px #000;
 	height:100%;
 	}
 
-.wrap2 h1{
-	padding-top:400px;}
+.content2 h1{
+	padding-top:400px;
+	text-align:center;}
 
-.wrap2 h1 span{
+.content2 h1 span{
 	font-weight:100;}
 	
 	
@@ -181,8 +189,9 @@ box-shadow: inset 0px -50px 7px -51px #000;
 	background-image: url(../img/fondoplaya.png);
 	background-position:top left;
 	background-repeat:no-repeat;
-	margin-top:5%;
 	width:100%;
+	max-width:960px;
+	margin-top:5%;
 	height:80%;
 	position:absolute;
 	}
@@ -191,6 +200,7 @@ box-shadow: inset 0px -50px 7px -51px #000;
 	font-family: 'Condiment', cursive;
 	font-size:130px;
 }
+
 	
 /*BLOQUE 7*/
 	
