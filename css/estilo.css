@@ -49,7 +49,6 @@ h1{
 	font-size:47px;
 	line-height:43px;
 	font-weight:800;
-	text-align:center;
 	color:#FFFFFF;
 	margin:0;
 }
@@ -123,6 +122,28 @@ box-shadow: inset 0px -50px 7px -51px #000;
 
 .amarillo{
 	background-color:#f1bb00;}
+	
+	
+/* UBICACION DE LOS ELEMENTOS */
+
+.carro{
+	position:absolute;
+	bottom:100px;
+	width:70%;
+	float:left;}
+
+.productos{
+	bottom:100px;
+	margin-left:600px;
+	width:30%;
+	position:absolute;
+	}
+  
+.titular{
+	position:absolute;
+	width:100%;
+	bottom:500px;
+	text-align:left;}
 
 /*BLOQUE 1*/
 
@@ -156,26 +177,20 @@ box-shadow: inset 0px -50px 7px -51px #000;
 	
 /*BLOQUE 3*/
 	
-#gente3{
-	position: absolute;
-	margin-top:230px;
-	z-index:2;
-	margin-left:600px;
-	z-index:2;
-	}	
-	
-#hora{
-	position: absolute;
-	margin-left:20px;
-	margin-top:150px;
-	z-index:2;}	
-	
-#txt3{
-	width:350px;
-	margin-top:450px;
-	margin-left:20px;
+.content3{
+	background-image: url(../img/fondoplaya.png);
+	background-position:top left;
+	background-repeat:no-repeat;
+	margin-top:5%;
+	width:100%;
+	height:80%;
 	position:absolute;
-	z-index:2;}
+	}
+
+.content3 h1{
+	font-family: 'Condiment', cursive;
+	font-size:130px;
+}
 	
 /*BLOQUE 7*/
 	
