@@ -252,20 +252,26 @@ box-shadow: inset 0px -50px 7px -51px #000;
 
 /*MENU*/
 
-.bullet{
+#menu > nav a {
+	display: block;
+	position: relative;
+	z-index: 9999;
+	color: transparent;
+	outline: none;
 	width:16px;
 	height:16px;
 	border-radius:8px;
 	background-color:#fff;
 	margin-bottom:5px;
-	}
-	
-.bullet:hover{
+}
+
+#menu > nav a:hover {
 	background-color: #EFEFEF;
 	-webkit-box-shadow: inset 1px 1px 1px rgba(0,0,0,0.30);
 -moz-box-shadow: inset 1px 1px 1px rgba(0,0,0,0.30);
 box-shadow: inset 1px 1px 1px rgba(0,0,0,0.30);
-	}
+}
+
 
 #menu{
 	background-color:#05B9E8;
@@ -278,7 +284,7 @@ box-shadow: inset 1px 1px 1px rgba(0,0,0,0.30);
 	z-index:10;
 	}	
 	
-#menu ul{
+#menu nav{
 	list-style:none;}	
 
 /*PDF DESCARGABLE*/
