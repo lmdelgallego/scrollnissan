@@ -1,42 +1,35 @@
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
-<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-<title>Aniversario SAO - 2014</title>
-<link href='http://fonts.googleapis.com/css?family=Roboto:400,300,700,900' rel='stylesheet' type='text/css'>
-<link href="css/estilo.css" rel="stylesheet" type="text/css" />
-<link rel="stylesheet" href="css/hint.css" type="text/css" />
-<script type="text/javascript">
-//Mobile Detection and Redirecting
-var device = navigator.userAgent
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+  <title>Aniversario SAO - 2014</title>
+  <link href='http://fonts.googleapis.com/css?family=Roboto:400,300,700,900' rel='stylesheet' type='text/css'>
+  <link href="css/estilo.css" rel="stylesheet" type="text/css" />
+  <link rel="stylesheet" href="css/hint.css" type="text/css" />
+  
 
-if (device.match(/Iphone/i)|| device.match(/Ipod/i)|| device.match(/Android/i)|| device.match(/J2ME/i)|| device.match(/HTC/i)) {
-window.location = "movil/index.html";
-//alert('Navegador movil')
-}
-else if (device.match(/Ipad/i))
-{
-//alert('iPad');
-} else {
-//alert('PC/Laptop/Mac');
-}
-//
-</script>
+  <script type="text/javascript">
+  //Mobile Detection and Redirecting
+  var device = navigator.userAgent
+
+  if (device.match(/Iphone/i)|| device.match(/Ipod/i)|| device.match(/Android/i)|| device.match(/J2ME/i)|| device.match(/HTC/i)) {
+  window.location = "movil/index.html";
+  //alert('Navegador movil')
+  }
+  else if (device.match(/Ipad/i))
+  {
+  //alert('iPad');
+  } else {
+  //alert('PC/Laptop/Mac');
+  }
+  //
+  </script>
 </head>
 
 <body>
 <!--NAV-->
 <div id="menu">
-	<nav>
-    	<a href="#divuno"></a>
-      <a href="#divdos"></a>
-      <a href="#divtres"></a>
-      <a href="#divcuatro"></a>
-      <a href="#divcinco"></a>
-      <a href="#divseis"></a>
-      <a href="#divsiete"></a>
-      <a href="#divocho"></a>
-    </nav>
+	
 </div>
 
 <!--<div id="menu2">
@@ -53,6 +46,18 @@ else if (device.match(/Ipad/i))
 
 
 <div id="cbp-fbscroller" class="fondo">
+  <nav>
+      <a href="#divuno" class="current_section"></a>
+      <a href="#divdos"></a>
+      <a href="#divtres"></a>
+      <a href="#divcuatro"></a>
+      <a href="#divcinco"></a>
+      <a href="#divseis"></a>
+      <a href="#divsiete"></a>
+      <a href="#divocho"></a>
+    </nav>
+
+
   <!--BLOQUE1-->
   <section id="divuno" class="fondo verde">
       <div class="wrap">
@@ -195,19 +200,15 @@ else if (device.match(/Ipad/i))
 
 </div>
 
-<!--<div id="toTop">^ Volver al Top</div>-->
-
-
 <!--SCRIPT JQUERY-->
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
-	<script type="text/javascript" src="js/skrollr.min.js"></script>
+<script type="text/javascript" src="js/skrollr.min.js"></script>
 
 
 	<!--[if lt IE 9]>
 	<script type="text/javascript" src="dist/skrollr.ie.min.js"></script>
 	<![endif]-->
-
-	<script type="text/javascript">
+<script type="text/javascript">
 	var s = skrollr.init({
 		beforerender: function(data) {
 			//console.log('beforerender');
@@ -222,38 +223,20 @@ else if (device.match(/Ipad/i))
 			}
 		}
 	});
-	</script>
-    
-    
-    
-   
-<script type="text/javascript">
-$(function() {
-	$(window).scroll(function() {
-		if($(this).scrollTop() != 0) {
-			$('#toTop').fadeIn();	
-		} else {
-			$('#toTop').fadeOut();
-		}
-	});
- 
-	$('#toTop').click(function() {
-		$('body,html').animate({scrollTop:0},800);
-	});	
-});
 </script>
-<!-- jquery.easing by http://gsgd.co.uk/ : http://gsgd.co.uk/sandbox/jquery/easing/ -->
-    <script src="js/jquery.easing.min.js"></script>
-    <!-- waypoints jQuery plugin by http://imakewebthings.com/ : http://imakewebthings.com/jquery-waypoints/ -->
-    <script src="js/waypoints.min.js"></script>
-    <!-- jquery-smartresize by @louis_remi : https://github.com/louisremi/jquery-smartresize -->
-    <script src="js/jquery.debouncedresize.js"></script>
-    <script src="js/cbpFixedScrollLayout.min.js"></script>
-    <script>
+
+
+<script src="js/jquery.easing.min.js"></script>
+<script src="js/waypoints.min.js"></script>
+<script src="js/jquery.debouncedresize.js"></script>
+<script src="js/cbpFixedScrollLayout.js"></script>
+
+<script>
       $(function() {
         cbpFixedScrollLayout.init();
       });
-    </script>
+</script>
+
 
 </body>
 </html>

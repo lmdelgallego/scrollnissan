@@ -246,7 +246,7 @@ box-shadow: inset 0px -50px 7px -51px #000;
 
 /*MENU*/
 
-#menu > nav a {
+#cbp-fbscroller > nav a {
 	display: block;
 	position: relative;
 	z-index: 9999;
@@ -259,7 +259,7 @@ box-shadow: inset 0px -50px 7px -51px #000;
 	margin-bottom:5px;
 }
 
-#menu > nav a:hover {
+#cbp-fbscroller > nav a:hover {
 	background-color: #EFEFEF;
 	-webkit-box-shadow: inset 1px 1px 1px rgba(0,0,0,0.30);
 -moz-box-shadow: inset 1px 1px 1px rgba(0,0,0,0.30);
@@ -267,7 +267,7 @@ box-shadow: inset 1px 1px 1px rgba(0,0,0,0.30);
 }
 
 
-#menu{
+#cbp-fbscroller > nav{
 	background-color:#05B9E8;
 	width:20px;
 	padding:10px;
@@ -278,8 +278,13 @@ box-shadow: inset 1px 1px 1px rgba(0,0,0,0.30);
 	z-index:10;
 	}	
 	
-#menu nav{
+#cbp-fbscroller > nav{
 	list-style:none;}	
+#cbp-fbscroller > nav a.cbp-fbcurrent {
+	border-radius:8px;
+	border: 4px solid #fff;
+	background: #05B9E8;
+}	
 
 /*PDF DESCARGABLE*/
 

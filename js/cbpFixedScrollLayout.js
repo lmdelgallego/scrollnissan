@@ -15,9 +15,9 @@ var cbpFixedScrollLayout = (function() {
 		// the cbp-fbscroller's sections
 		$sections : $( '#cbp-fbscroller > section' ),
 		// the navigation links
-		$navlinks : $( '#menu > ul:first > a' ),
+		$navlinks : $( '#cbp-fbscroller > nav:first > a' ),
 		// index of current link / section
-		currentLink : 0,
+		currentLink : 1,
 		// the body element
 		$body : $( 'html, body' ),
 		// the body animation speed
@@ -27,14 +27,14 @@ var cbpFixedScrollLayout = (function() {
 	};
 
 	function init() {
-
+		console.log(config.$navlinks);
 		// click on a navigation link: the body is scrolled to the position of the respective section
 		config.$navlinks.on( 'click', function() {
+			console.log("Shhhhhh");
 			scrollAnim( config.$sections.eq( $( this ).index() ).offset().top );
-			alert($( this ).index());
 			return false;
 		} );
-
+		
 		// 2 waypoints defined:
 		// First one when we scroll down: the current navigation link gets updated. A "new section" is reached when it occupies more than 70% of the viewport
 		// Second one when we scroll up: the current navigation link gets updated. A "new section" is reached when it occupies more than 70% of the viewport
