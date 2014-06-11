@@ -49,7 +49,6 @@ h1{
 	font-size:47px;
 	line-height:43px;
 	font-weight:800;
-	text-align:center;
 	color:#FFFFFF;
 	margin:0;
 }
@@ -123,6 +122,35 @@ box-shadow: inset 0px -50px 7px -51px #000;
 
 .amarillo{
 	background-color:#f1bb00;}
+	
+	
+/* UBICACION DE LOS ELEMENTOS */
+
+.carro{
+	position:absolute;
+	bottom:100px;
+	width:70%;
+	float:left;}
+
+.productos{
+	bottom:100px;
+	margin-left:600px;
+	width:30%;
+	position:absolute;
+	}
+  
+.titular{
+	position:absolute;
+	width:100%;
+	bottom:500px;
+	text-align:left;
+	}
+
+.pretitulo{
+	bottom:600px;
+	position:absolute;
+	width:100%;
+	text-align:left;}
 
 /*BLOQUE 1*/
 
@@ -132,13 +160,13 @@ box-shadow: inset 0px -50px 7px -51px #000;
 	background-position:top center;}
 
 #divuno img{
-	margin-top:25%;}
+	margin-top:20%;}
 
 
 
 /*BLOQUE 2*/
 	
-.wrap2{
+.content2{
 	background-image: url(../img/ciudad.png);
 	background-position:bottom center;
 	background-repeat:no-repeat;
@@ -147,35 +175,32 @@ box-shadow: inset 0px -50px 7px -51px #000;
 	height:100%;
 	}
 
-.wrap2 h1{
-	padding-top:400px;}
+.content2 h1{
+	padding-top:400px;
+	text-align:center;}
 
-.wrap2 h1 span{
+.content2 h1 span{
 	font-weight:100;}
 	
 	
 /*BLOQUE 3*/
 	
-#gente3{
-	position: absolute;
-	margin-top:230px;
-	z-index:2;
-	margin-left:600px;
-	z-index:2;
-	}	
-	
-#hora{
-	position: absolute;
-	margin-left:20px;
-	margin-top:150px;
-	z-index:2;}	
-	
-#txt3{
-	width:350px;
-	margin-top:450px;
-	margin-left:20px;
+.content3{
+	background-image: url(../img/fondoplaya.png);
+	background-position:top left;
+	background-repeat:no-repeat;
+	width:100%;
+	max-width:960px;
+	margin-top:5%;
+	height:80%;
 	position:absolute;
-	z-index:2;}
+	}
+
+.content3 h1{
+	font-family: 'Condiment', cursive;
+	font-size:130px;
+}
+
 	
 /*BLOQUE 7*/
 	
