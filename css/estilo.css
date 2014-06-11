@@ -138,26 +138,13 @@ box-shadow: inset 0px -50px 7px -51px #000;
 
 /*BLOQUE 2*/
 	
-#gente2{
-	float: left;
-	position: absolute;
-	margin-top:230px;
-	z-index:2;
-}
-
-#cuadra{
-	position:absolute;
-	float: left;
-	z-index:2;
-	margin-top:150px;
-	margin-left:400px;
-	}
-
-#txt2{
-	width:450px;
-	margin-top:450px;
-	margin-left:520px;
-	position:absolute;}
+.wrap2{
+	background-image: url(../img/ciudad.png);
+	background-position:bottom center;
+	background-repeat:no-repeat;
+	max-width:960px;
+	margin:0 auto;
+	height:100%;}
 	
 	
 /*BLOQUE 3*/
