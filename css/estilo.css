@@ -53,10 +53,7 @@ h1{
 	margin:0;
 }
 
-p{
-	font-size:13px;
-	text-align:justify;
-	font-weight:500;}
+
 /*ESTILO*/
 
 .fondo{
@@ -122,6 +119,9 @@ box-shadow: inset 0px -50px 7px -51px #000;
 
 .amarillo{
 	background-color:#f1bb00;}
+
+.verde2{
+	background-color:#8b9d00;}
 	
 	
 /* UBICACION DE LOS ELEMENTOS */
@@ -147,10 +147,13 @@ box-shadow: inset 0px -50px 7px -51px #000;
 	}
 
 .pretitulo{
-	bottom:600px;
+	bottom:630px;
+	font-size:16px;
 	position:absolute;
-	width:100%;
-	text-align:left;}
+	width:90%;
+	text-align:left;
+	margin-left:5%;
+	color:#FFFFFF;}
 
 /*BLOQUE 1*/
 
@@ -202,6 +205,27 @@ box-shadow: inset 0px -50px 7px -51px #000;
 }
 
 	
+/*BLOQUE 4*/
+	
+.content4{
+	background-image: url(../img/fondoplaya.png);
+	background-position:top left;
+	background-repeat:no-repeat;
+	width:100%;
+	max-width:960px;
+	margin-top:5%;
+	height:80%;
+	position:absolute;
+	}
+
+.content4 h1{
+	font-family: 'Pacifico', cursive;
+	font-size:130px;
+}
+
+	
+	
+
 /*BLOQUE 7*/
 	
 #reciclaje1{
