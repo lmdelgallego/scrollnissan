@@ -146,15 +146,6 @@ box-shadow: inset 0px -50px 7px -51px #000;
 	text-align:left;
 	}
 
-.pretitulo{
-	bottom:630px;
-	font-size:16px;
-	position:absolute;
-	width:90%;
-	text-align:left;
-	margin-left:5%;
-	color:#FFFFFF;}
-
 /*BLOQUE 1*/
 
 #divuno{
@@ -204,6 +195,15 @@ box-shadow: inset 0px -50px 7px -51px #000;
 	font-size:130px;
 }
 
+.content3 .pretitulo{
+	bottom:630px;
+	font-size:16px;
+	position:absolute;
+	width:90%;
+	text-align:left;
+	margin-left:5%;
+	color:#FFFFFF;}
+
 	
 /*BLOQUE 4*/
 	
@@ -223,6 +223,15 @@ box-shadow: inset 0px -50px 7px -51px #000;
 	font-size:130px;
 }
 
+
+.content4 .pretitulo{
+	bottom:600px;
+	font-size:16px;
+	position:absolute;
+	width:90%;
+	text-align:left;
+	margin-left:5%;
+	color:#FFFFFF;}
 	
 	
 
